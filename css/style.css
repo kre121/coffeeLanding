@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+.intro-image{
+    background-attachment: fixed;
+    background-image: url('../img/coffeebeans1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-image__link a{
+    background-color: #573833;
+    border: 2px solid #b79b95;
+    color: #9b9493;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.intro-image__link a:hover{
+transform: scale(1.5);
+}
+.intro-text{
+    background-color: #615654;
+    color: #b79b95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+.intro-text__textbox h3{
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+}
+
+.quality-image{
+    background-attachment: fixed;
+    background-image: url('../img/coffeemachine1.webp');
+    background-size: cover;
+    background-position-x: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality-image__link a{
+    background-color: #534D66;
+    border: 2px solid #DCEFF4;
+    color: #9b9493;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.quality-image__link a:hover{
+transform: scale(1.2);
+}
+.quality.text{
+    background-color: #615654;
+    color: #b79b95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+.quality-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.footer{
+    height: 250px;
+    background-color: #615654;
+    color: #DCEFF4;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+.footer ul li a{
+    color: #9b9493;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    /*color: #9b9493;*/
+    transform: scale(1.3);
+}
